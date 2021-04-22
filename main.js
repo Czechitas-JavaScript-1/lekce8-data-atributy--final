@@ -13,4 +13,7 @@ function zobrazKalorie(udalost) {
 	let zeme = obrazek.dataset.zemePuvodu;
 
 	document.querySelector('#vysledek').textContent = 'Snědla jsi ' + kalorie + ' kcal/100g a země původu je ' + zeme + '.';
+
+	let snedeno = document.querySelector('#snedeno');
+	snedeno.appendChild(obrazek);
 }
